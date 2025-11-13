@@ -1,0 +1,12 @@
+# write a program to read employee data from the keyboard and print that data on the screen
+Eno = int(input("Enter Employee Number: "))
+Ename = input("Enter Employee Name: ")
+Esal = float(input("Enter Employee Salary: "))
+Eaddr = input("Enter Employee Address: ")
+married = input("Is Employee Married (yes/no): ")
+print("\nEmployee Details:")
+print("Employee Number:", Eno)  
+print("Employee Name:", Ename)
+print("Employee Salary:", Esal)
+print("Employee Address:", Eaddr)
+print("Employee Married:", married) 

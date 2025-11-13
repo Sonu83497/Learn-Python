@@ -1,0 +1,18 @@
+num = float(25)
+print("The float value is:", num)
+print("Type of the value is:", type(num))
+print(int(num))
+n = float("100.5")
+print("The float value from string is:", n)
+print("Type of the float value from string is:", type(n))
+n = float("100")
+print("The float value from string is:", n)
+print("Type of the float value from string is:", type(n))
+n = float(True)
+print("The float value of True is:", n)
+n = float(False)
+print("The float value of False is:", n)
+
+n = float("abc")  # This will raise a ValueError
+print("The float value from string is:", n)
+print("Type of the float value from string is:", type(n))
