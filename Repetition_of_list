@@ -1,0 +1,7 @@
+a = [1,2,3]
+result = a*5
+print(result)
+
+b = ['s','o','n','u']
+res = b * 5
+print(res)
