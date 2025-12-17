@@ -1,0 +1,16 @@
+f = open('student.txt',mode='w')
+f.write("hello\n")
+f.write("Cyber security expert\n")
+f.write("Thank You")
+f.close()
+print("Write a message successfully !")
+
+f = open('student.txt',mode='r')
+data = f.read()
+print(data)
+f.close()
+
+f = open('student.txt',mode='rb')
+data = f.read()
+print(data)
+f.close()
